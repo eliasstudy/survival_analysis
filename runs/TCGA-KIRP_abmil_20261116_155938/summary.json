@@ -1,0 +1,32 @@
+{
+    "run_name": "TCGA-KIRP_abmil_20261116_155938",
+    "mean_c_index": 0.7698,
+    "std_c_index": 0.1058,
+    "fold_c_indices": [
+        0.8773,
+        0.6894,
+        0.6029,
+        0.8288,
+        0.8507
+    ],
+    "mean_c_at_best_loss": 0.7438,
+    "std_c_at_best_loss": 0.1174,
+    "mean_c_last_epoch": 0.7574,
+    "std_c_last_epoch": 0.1051,
+    "cohort": "TCGA-KIRP",
+    "model_type": "abmil",
+    "in_dim": 768,
+    "embed_dim": 512,
+    "num_fc_layers": 1,
+    "dropout": 0.25,
+    "attn_dim": 384,
+    "gate": true,
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85
+}

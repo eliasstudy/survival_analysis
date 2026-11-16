@@ -1,0 +1,32 @@
+{
+    "run_name": "TCGA-GBMLGG_abmil_20261116_160506",
+    "mean_c_index": 0.7675,
+    "std_c_index": 0.0684,
+    "fold_c_indices": [
+        0.6442,
+        0.7557,
+        0.823,
+        0.7772,
+        0.8374
+    ],
+    "mean_c_at_best_loss": 0.7577,
+    "std_c_at_best_loss": 0.072,
+    "mean_c_last_epoch": 0.7504,
+    "std_c_last_epoch": 0.0713,
+    "cohort": "TCGA-GBMLGG",
+    "model_type": "abmil",
+    "in_dim": 768,
+    "embed_dim": 512,
+    "num_fc_layers": 1,
+    "dropout": 0.25,
+    "attn_dim": 384,
+    "gate": true,
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85
+}
