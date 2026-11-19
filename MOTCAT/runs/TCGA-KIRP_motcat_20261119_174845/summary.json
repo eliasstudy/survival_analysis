@@ -1,0 +1,43 @@
+{
+    "run_name": "TCGA-KIRP_motcat_20261119_174845",
+    "mean_c_index": 0.8618,
+    "std_c_index": 0.0788,
+    "fold_c_indices": [
+        0.9387,
+        0.8043,
+        0.7368,
+        0.8964,
+        0.9328
+    ],
+    "mean_c_at_best_loss": 0.8229,
+    "std_c_at_best_loss": 0.1248,
+    "mean_c_last_epoch": 0.8179,
+    "std_c_last_epoch": 0.1349,
+    "cohort": "TCGA-KIRP",
+    "model_type": "motcat",
+    "in_dim": 768,
+    "fusion": "concat",
+    "model_size_wsi": "small",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "bs_micro": 4096,
+    "ot_impl": "pot-uot-l2",
+    "ot_reg": 0.1,
+    "ot_tau": 0.5,
+    "seed": 85,
+    "n_jobs": 5,
+    "omic_sizes": [
+        83,
+        306,
+        496,
+        415,
+        135,
+        424
+    ]
+}

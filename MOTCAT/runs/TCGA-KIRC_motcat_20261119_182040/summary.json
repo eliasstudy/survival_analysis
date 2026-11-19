@@ -1,0 +1,43 @@
+{
+    "run_name": "TCGA-KIRC_motcat_20261119_182040",
+    "mean_c_index": 0.7542,
+    "std_c_index": 0.0579,
+    "fold_c_indices": [
+        0.713,
+        0.8594,
+        0.7276,
+        0.6996,
+        0.7714
+    ],
+    "mean_c_at_best_loss": 0.7103,
+    "std_c_at_best_loss": 0.0812,
+    "mean_c_last_epoch": 0.7246,
+    "std_c_last_epoch": 0.0335,
+    "cohort": "TCGA-KIRC",
+    "model_type": "motcat",
+    "in_dim": 768,
+    "fusion": "concat",
+    "model_size_wsi": "small",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "bs_micro": 4096,
+    "ot_impl": "pot-uot-l2",
+    "ot_reg": 0.1,
+    "ot_tau": 0.5,
+    "seed": 85,
+    "n_jobs": 5,
+    "omic_sizes": [
+        90,
+        320,
+        524,
+        441,
+        186,
+        455
+    ]
+}

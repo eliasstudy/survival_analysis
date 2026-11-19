@@ -1,3 +1,4 @@
 run_name,mean_c_index,std_c_index,fold_c_indices,mean_c_at_best_loss,std_c_at_best_loss,mean_c_last_epoch,std_c_last_epoch,cohort,model_type,in_dim,fusion,model_size_wsi,model_size_omic,num_classes,epochs,lr,weight_decay,grad_accum_steps,max_patches_train,loss_alpha,seed,n_jobs,omic_sizes
 TCGA-GBMLGG_mcat_20261119_170144,0.8074,0.0375,"[0.7557, 0.7693, 0.8306, 0.8496, 0.8318]",0.7976,0.0406,0.7866,0.0361,TCGA-GBMLGG,mcat,768,concat,small,small,4,20,0.0002,1e-05,32,,0.15,85,5,"[87, 310, 496, 413, 138, 427]"
 TCGA-KIRC_mcat_20261119_171720,0.7564,0.0562,"[0.7137, 0.8516, 0.7431, 0.6923, 0.7814]",0.7133,0.0741,0.7335,0.0456,TCGA-KIRC,mcat,768,concat,small,small,4,20,0.0002,1e-05,32,,0.15,85,5,"[90, 320, 524, 441, 186, 455]"
+TCGA-KIRP_mcat_20261119_172732,0.8463,0.0948,"[0.9448, 0.7489, 0.7177, 0.8874, 0.9328]",0.8309,0.1105,0.8182,0.1198,TCGA-KIRP,mcat,768,concat,small,small,4,20,0.0002,1e-05,32,,0.15,85,5,"[83, 306, 496, 415, 135, 424]"

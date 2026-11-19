@@ -1,0 +1,22 @@
+==================== FOLD 1 ====================
+[Fold 1] Epoch 01/20 | Train Loss: 1.4305 | Val Loss: 1.3718 | Val C-Index: 0.5957
+[Fold 1] Epoch 02/20 | Train Loss: 0.9662 | Val Loss: 0.7624 | Val C-Index: 0.6170
+[Fold 1] Epoch 03/20 | Train Loss: 0.5688 | Val Loss: 0.6313 | Val C-Index: 0.6340
+[Fold 1] Epoch 04/20 | Train Loss: 0.5583 | Val Loss: 0.6397 | Val C-Index: 0.6638
+[Fold 1] Epoch 05/20 | Train Loss: 0.5522 | Val Loss: 0.5947 | Val C-Index: 0.6979
+[Fold 1] Epoch 06/20 | Train Loss: 0.5214 | Val Loss: 0.5865 | Val C-Index: 0.6809
+[Fold 1] Epoch 07/20 | Train Loss: 0.4987 | Val Loss: 0.5789 | Val C-Index: 0.7106
+[Fold 1] Epoch 08/20 | Train Loss: 0.4683 | Val Loss: 0.5730 | Val C-Index: 0.7362
+[Fold 1] Epoch 09/20 | Train Loss: 0.4295 | Val Loss: 0.5781 | Val C-Index: 0.7447
+[Fold 1] Epoch 10/20 | Train Loss: 0.3989 | Val Loss: 0.6002 | Val C-Index: 0.7489
+[Fold 1] Epoch 11/20 | Train Loss: 0.3730 | Val Loss: 0.6183 | Val C-Index: 0.7064
+[Fold 1] Epoch 12/20 | Train Loss: 0.3662 | Val Loss: 0.6314 | Val C-Index: 0.7191
+[Fold 1] Epoch 13/20 | Train Loss: 0.3365 | Val Loss: 0.6392 | Val C-Index: 0.7234
+[Fold 1] Epoch 14/20 | Train Loss: 0.3323 | Val Loss: 0.6406 | Val C-Index: 0.7149
+[Fold 1] Epoch 15/20 | Train Loss: 0.3318 | Val Loss: 0.6448 | Val C-Index: 0.7064
+[Fold 1] Epoch 16/20 | Train Loss: 0.3425 | Val Loss: 0.6454 | Val C-Index: 0.7106
+[Fold 1] Epoch 17/20 | Train Loss: 0.3238 | Val Loss: 0.6459 | Val C-Index: 0.7106
+[Fold 1] Epoch 18/20 | Train Loss: 0.3209 | Val Loss: 0.6468 | Val C-Index: 0.7106
+[Fold 1] Epoch 19/20 | Train Loss: 0.3228 | Val Loss: 0.6472 | Val C-Index: 0.7106
+[Fold 1] Epoch 20/20 | Train Loss: 0.3268 | Val Loss: 0.6473 | Val C-Index: 0.7149
+--> Fold 1 | Best C-Index: 0.7489 | C-Index @ Best Loss: 0.7362 | Last C-Index: 0.7149

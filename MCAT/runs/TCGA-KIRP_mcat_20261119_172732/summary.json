@@ -1,0 +1,39 @@
+{
+    "run_name": "TCGA-KIRP_mcat_20261119_172732",
+    "mean_c_index": 0.8463,
+    "std_c_index": 0.0948,
+    "fold_c_indices": [
+        0.9448,
+        0.7489,
+        0.7177,
+        0.8874,
+        0.9328
+    ],
+    "mean_c_at_best_loss": 0.8309,
+    "std_c_at_best_loss": 0.1105,
+    "mean_c_last_epoch": 0.8182,
+    "std_c_last_epoch": 0.1198,
+    "cohort": "TCGA-KIRP",
+    "model_type": "mcat",
+    "in_dim": 768,
+    "fusion": "concat",
+    "model_size_wsi": "small",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_jobs": 5,
+    "omic_sizes": [
+        83,
+        306,
+        496,
+        415,
+        135,
+        424
+    ]
+}
