@@ -1,0 +1,14 @@
+{
+    "cohort": "TCGA-GBMLGG",
+    "model_type": "transmil",
+    "in_dim": 768,
+    "embed_dim": 512,
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85
+}
