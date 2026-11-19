@@ -1,0 +1,39 @@
+{
+    "run_name": "TCGA-GBMLGG_mcat_20261119_170144",
+    "mean_c_index": 0.8074,
+    "std_c_index": 0.0375,
+    "fold_c_indices": [
+        0.7557,
+        0.7693,
+        0.8306,
+        0.8496,
+        0.8318
+    ],
+    "mean_c_at_best_loss": 0.7976,
+    "std_c_at_best_loss": 0.0406,
+    "mean_c_last_epoch": 0.7866,
+    "std_c_last_epoch": 0.0361,
+    "cohort": "TCGA-GBMLGG",
+    "model_type": "mcat",
+    "in_dim": 768,
+    "fusion": "concat",
+    "model_size_wsi": "small",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_jobs": 5,
+    "omic_sizes": [
+        87,
+        310,
+        496,
+        413,
+        138,
+        427
+    ]
+}
