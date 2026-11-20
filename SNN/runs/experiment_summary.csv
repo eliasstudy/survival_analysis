@@ -1,0 +1,4 @@
+run_name,model_selection,mean_c_index,std_c_index,fold_c_indices,cohort,model_type,pathways,omic_scaling,model_size_omic,num_classes,epochs,lr,weight_decay,grad_accum_steps,loss_alpha,seed,n_omic_features
+TCGA-KIRC_snn_20261120_112655,last_epoch,0.7016,0.0633,"[0.7086, 0.6934, 0.8069, 0.6081, 0.691]",TCGA-KIRC,snn,combine,zscore_per_gene_clip5,small,4,20,0.0002,1e-05,32,0.15,85,4917
+TCGA-GBMLGG_snn_20261120_112713,last_epoch,0.8179,0.0329,"[0.7627, 0.8153, 0.8655, 0.8275, 0.8187]",TCGA-GBMLGG,snn,combine,zscore_per_gene_clip5,small,4,20,0.0002,1e-05,32,0.15,85,4917
+TCGA-KIRP_snn_20261120_112731,last_epoch,0.82,0.1237,"[0.9509, 0.7745, 0.6077, 0.8378, 0.9291]",TCGA-KIRP,snn,combine,zscore_per_gene_clip5,small,4,20,0.0002,1e-05,32,0.15,85,4917

@@ -1,0 +1,26 @@
+{
+    "run_name": "TCGA-KIRC_snn_20261120_112655",
+    "model_selection": "last_epoch",
+    "mean_c_index": 0.7016,
+    "std_c_index": 0.0633,
+    "fold_c_indices": [
+        0.7086,
+        0.6934,
+        0.8069,
+        0.6081,
+        0.691
+    ],
+    "cohort": "TCGA-KIRC",
+    "model_type": "snn",
+    "pathways": "combine",
+    "omic_scaling": "zscore_per_gene_clip5",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_omic_features": 4917
+}

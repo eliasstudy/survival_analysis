@@ -1,0 +1,15 @@
+{
+    "cohort": "TCGA-GBMLGG",
+    "model_type": "snn",
+    "pathways": "combine",
+    "omic_scaling": "zscore_per_gene_clip5",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_omic_features": 4917
+}
