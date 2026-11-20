@@ -1,0 +1,6 @@
+==================== FOLD 2 ====================
+[Fold 2] Epoch 01/20 | Train Loss: 1.1012 | Val Loss: 0.9599 | Val C-Index: 0.8631
+[Fold 2] Epoch 02/20 | Train Loss: 0.8806 | Val Loss: 0.9294 | Val C-Index: 0.8714
+[Fold 2] Epoch 03/20 | Train Loss: 0.7942 | Val Loss: 0.6937 | Val C-Index: 0.8674
+[Fold 2] Epoch 04/20 | Train Loss: 0.7136 | Val Loss: 0.6900 | Val C-Index: 0.8639
+[Fold 2] Epoch 05/20 | Train Loss: 0.6714 | Val Loss: 0.6564 | Val C-Index: 0.8663
