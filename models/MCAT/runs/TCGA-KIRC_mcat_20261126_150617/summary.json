@@ -1,0 +1,39 @@
+{
+    "run_name": "TCGA-KIRC_mcat_20261126_150617",
+    "model_selection": "last_epoch",
+    "mean_c_index": 0.7423,
+    "std_c_index": 0.0453,
+    "fold_c_indices": [
+        0.6583,
+        0.7891,
+        0.7672,
+        0.7358,
+        0.7613
+    ],
+    "cohort": "TCGA-KIRC",
+    "model_type": "mcat",
+    "genomics": "rnaseq_raw_xena_pancan",
+    "omic_scaling": "zscore_per_gene_clip5",
+    "in_dim": 768,
+    "fusion": "concat",
+    "model_size_wsi": "small",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0002,
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_jobs": 5,
+    "omic_sizes": [
+        81,
+        304,
+        498,
+        424,
+        1417,
+        428
+    ],
+    "n_omic_features": 2854
+}

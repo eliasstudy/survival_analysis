@@ -1,0 +1,4 @@
+run_name,model_selection,mean_c_index,std_c_index,fold_c_indices,cohort,model_type,in_dim,embed_dim,num_classes,epochs,lr,weight_decay,grad_accum_steps,max_patches_train,loss_alpha,seed
+TCGA-GBMLGG_transmil_20261119_151035,last_epoch,0.7547,0.0666,"[0.6247, 0.7757, 0.8082, 0.7678, 0.7972]",TCGA-GBMLGG,transmil,768,512,4,20,0.0002,1e-05,32,,0.15,85
+TCGA-KIRC_transmil_20261119_154331,last_epoch,0.7077,0.0624,"[0.5997, 0.7305, 0.7931, 0.7068, 0.7085]",TCGA-KIRC,transmil,768,512,4,20,0.0002,1e-05,32,,0.15,85
+TCGA-KIRP_transmil_20261119_162237,last_epoch,0.7493,0.0959,"[0.7975, 0.7191, 0.5789, 0.7928, 0.8582]",TCGA-KIRP,transmil,768,512,4,20,0.0002,1e-05,32,,0.15,85

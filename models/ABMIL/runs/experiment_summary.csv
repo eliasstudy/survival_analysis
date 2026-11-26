@@ -1,0 +1,7 @@
+run_name,model_selection,mean_c_index,std_c_index,fold_c_indices,cohort,model_type,in_dim,embed_dim,num_fc_layers,dropout,attn_dim,gate,num_classes,epochs,lr,weight_decay,grad_accum_steps,max_patches_train,loss_alpha,seed
+TCGA-KIRC_abmil_20261115_190429,last_epoch,0.6819,0.0596,"[0.5639, 0.7168, 0.7241, 0.7039, 0.701]",TCGA-KIRC,abmil,768,512,1,0.25,384,True,4,20,0.0002,1e-05,32,,0.15,85
+TCGA-GBMLGG_abmil_20261115_191935,last_epoch,0.7509,0.0715,"[0.6262, 0.7197, 0.8058, 0.7805, 0.8224]",TCGA-GBMLGG,abmil,768,512,1,0.25,384,True,4,20,0.0002,1e-05,32,,0.15,85
+TCGA-KIRP_abmil_20261115_192609,last_epoch,0.7659,0.0871,"[0.8037, 0.6851, 0.6411, 0.8378, 0.8619]",TCGA-KIRP,abmil,768,512,1,0.25,384,True,4,20,0.0002,1e-05,32,,0.15,85
+TCGA-KIRP_abmil_20261116_155938,last_epoch,0.7574,0.1051,"[0.8712, 0.6851, 0.5885, 0.8063, 0.8358]",TCGA-KIRP,abmil,768,512,1,0.25,384,True,4,20,0.0002,1e-05,32,,0.15,85
+TCGA-KIRC_abmil_20261116_160155,last_epoch,0.6969,0.0876,"[0.5639, 0.625, 0.7362, 0.7678, 0.7915]",TCGA-KIRC,abmil,768,512,1,0.25,384,True,4,20,0.0002,1e-05,32,,0.15,85
+TCGA-GBMLGG_abmil_20261116_160506,last_epoch,0.7504,0.0713,"[0.6269, 0.7179, 0.8179, 0.7761, 0.8131]",TCGA-GBMLGG,abmil,768,512,1,0.25,384,True,4,20,0.0002,1e-05,32,,0.15,85
