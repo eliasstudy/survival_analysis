@@ -1,0 +1,28 @@
+{
+    "run_name": "TCGA-KIRC_mlp_20261127_132543",
+    "model_selection": "last_epoch",
+    "mean_c_index": 0.6969,
+    "std_c_index": 0.0644,
+    "fold_c_indices": [
+        0.7199,
+        0.7031,
+        0.7931,
+        0.5951,
+        0.6734
+    ],
+    "cohort": "TCGA-KIRC",
+    "model_type": "mlp",
+    "pathways": "xena_all",
+    "omic_scaling": "zscore_per_gene_clip5",
+    "projection_dim": 512,
+    "dropout": 0.1,
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0001,
+    "lr_scheduler": "none",
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_omic_features": 20530
+}

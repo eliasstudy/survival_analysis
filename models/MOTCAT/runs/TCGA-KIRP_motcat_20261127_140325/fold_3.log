@@ -1,0 +1,12 @@
+==================== FOLD 3 ====================
+[Fold 3] Epoch 01/10 | Train Loss: 1.5342 | Val Loss: 1.2961 | Val C-Index: 0.6622
+[Fold 3] Epoch 02/10 | Train Loss: 1.3169 | Val Loss: 1.0800 | Val C-Index: 0.7658
+[Fold 3] Epoch 03/10 | Train Loss: 1.0645 | Val Loss: 0.8486 | Val C-Index: 0.8378
+[Fold 3] Epoch 04/10 | Train Loss: 0.8063 | Val Loss: 0.6663 | Val C-Index: 0.8423
+[Fold 3] Epoch 05/10 | Train Loss: 0.6174 | Val Loss: 0.6153 | Val C-Index: 0.8288
+[Fold 3] Epoch 06/10 | Train Loss: 0.5417 | Val Loss: 0.6206 | Val C-Index: 0.8378
+[Fold 3] Epoch 07/10 | Train Loss: 0.5307 | Val Loss: 0.5949 | Val C-Index: 0.8468
+[Fold 3] Epoch 08/10 | Train Loss: 0.5295 | Val Loss: 0.5822 | Val C-Index: 0.8694
+[Fold 3] Epoch 09/10 | Train Loss: 0.4942 | Val Loss: 0.6019 | Val C-Index: 0.8604
+[Fold 3] Epoch 10/10 | Train Loss: 0.4773 | Val Loss: 0.6341 | Val C-Index: 0.8919
+--> Fold 3 | C-Index (letzte Epoche): 0.8919

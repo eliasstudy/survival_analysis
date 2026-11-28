@@ -1,0 +1,80 @@
+Config identisch zu TCGA-KIRC_abmil_20261127_091458 (bis auf epochs)
+Nutze Device: cuda
+Fold-Verteilung (Größe | Events):
+  Fold 0: n= 67 | events=35 | sites=1
+  Fold 1: n= 85 | events=11 | sites=4
+  Fold 2: n= 79 | events=12 | sites=2
+  Fold 3: n= 65 | events=20 | sites=5
+  Fold 4: n= 47 | events=14 | sites=5
+Lade 343 WSI-Feature-Dateien in den RAM...
+Fertig! Belegter RAM durch Feature-Cache: 3799.0 MB
+
+==================== FOLD 0 ====================
+Epoch 01/10 | Train Loss: 1.3162 | Val Loss: 1.3977 | Val C-Index: 0.5752
+Epoch 02/10 | Train Loss: 0.7216 | Val Loss: 1.7545 | Val C-Index: 0.5916
+Epoch 03/10 | Train Loss: 0.7198 | Val Loss: 1.7069 | Val C-Index: 0.6010
+Epoch 04/10 | Train Loss: 0.6641 | Val Loss: 1.5598 | Val C-Index: 0.5878
+Epoch 05/10 | Train Loss: 0.6198 | Val Loss: 1.4272 | Val C-Index: 0.5802
+Epoch 06/10 | Train Loss: 0.5935 | Val Loss: 1.4337 | Val C-Index: 0.5727
+Epoch 07/10 | Train Loss: 0.5678 | Val Loss: 1.4565 | Val C-Index: 0.5714
+Epoch 08/10 | Train Loss: 0.5546 | Val Loss: 1.4657 | Val C-Index: 0.5752
+Epoch 09/10 | Train Loss: 0.5286 | Val Loss: 1.4490 | Val C-Index: 0.5790
+Epoch 10/10 | Train Loss: 0.5109 | Val Loss: 1.4315 | Val C-Index: 0.5765
+--> Fold 0 | C-Index (letzte Epoche): 0.5765
+
+==================== FOLD 1 ====================
+Epoch 01/10 | Train Loss: 1.0293 | Val Loss: 0.4984 | Val C-Index: 0.5371
+Epoch 02/10 | Train Loss: 0.9599 | Val Loss: 0.4881 | Val C-Index: 0.5762
+Epoch 03/10 | Train Loss: 0.8740 | Val Loss: 0.5494 | Val C-Index: 0.5996
+Epoch 04/10 | Train Loss: 0.8419 | Val Loss: 0.5376 | Val C-Index: 0.5938
+Epoch 05/10 | Train Loss: 0.8129 | Val Loss: 0.5060 | Val C-Index: 0.5977
+Epoch 06/10 | Train Loss: 0.7919 | Val Loss: 0.4971 | Val C-Index: 0.5801
+Epoch 07/10 | Train Loss: 0.7812 | Val Loss: 0.4826 | Val C-Index: 0.6172
+Epoch 08/10 | Train Loss: 0.7601 | Val Loss: 0.4933 | Val C-Index: 0.6250
+Epoch 09/10 | Train Loss: 0.7304 | Val Loss: 0.4950 | Val C-Index: 0.6211
+Epoch 10/10 | Train Loss: 0.7208 | Val Loss: 0.5281 | Val C-Index: 0.6152
+--> Fold 1 | C-Index (letzte Epoche): 0.6152
+
+==================== FOLD 2 ====================
+Epoch 01/10 | Train Loss: 1.2237 | Val Loss: 0.5271 | Val C-Index: 0.6672
+Epoch 02/10 | Train Loss: 0.9342 | Val Loss: 0.5194 | Val C-Index: 0.6328
+Epoch 03/10 | Train Loss: 0.8854 | Val Loss: 0.5616 | Val C-Index: 0.6345
+Epoch 04/10 | Train Loss: 0.8347 | Val Loss: 0.5883 | Val C-Index: 0.6897
+Epoch 05/10 | Train Loss: 0.8158 | Val Loss: 0.5496 | Val C-Index: 0.7379
+Epoch 06/10 | Train Loss: 0.7824 | Val Loss: 0.5514 | Val C-Index: 0.7241
+Epoch 07/10 | Train Loss: 0.7593 | Val Loss: 0.5152 | Val C-Index: 0.7466
+Epoch 08/10 | Train Loss: 0.7303 | Val Loss: 0.5250 | Val C-Index: 0.7741
+Epoch 09/10 | Train Loss: 0.7119 | Val Loss: 0.5304 | Val C-Index: 0.7534
+Epoch 10/10 | Train Loss: 0.6894 | Val Loss: 0.5339 | Val C-Index: 0.7569
+--> Fold 2 | C-Index (letzte Epoche): 0.7569
+
+==================== FOLD 3 ====================
+Epoch 01/10 | Train Loss: 1.4842 | Val Loss: 0.9310 | Val C-Index: 0.4746
+Epoch 02/10 | Train Loss: 0.8282 | Val Loss: 0.9458 | Val C-Index: 0.5878
+Epoch 03/10 | Train Loss: 0.8668 | Val Loss: 0.9567 | Val C-Index: 0.6343
+Epoch 04/10 | Train Loss: 0.8132 | Val Loss: 0.9001 | Val C-Index: 0.6676
+Epoch 05/10 | Train Loss: 0.7644 | Val Loss: 0.8599 | Val C-Index: 0.6981
+Epoch 06/10 | Train Loss: 0.7387 | Val Loss: 0.8636 | Val C-Index: 0.7562
+Epoch 07/10 | Train Loss: 0.7162 | Val Loss: 0.8657 | Val C-Index: 0.7794
+Epoch 08/10 | Train Loss: 0.6968 | Val Loss: 0.8691 | Val C-Index: 0.7866
+Epoch 09/10 | Train Loss: 0.6760 | Val Loss: 0.8552 | Val C-Index: 0.7881
+Epoch 10/10 | Train Loss: 0.6538 | Val Loss: 0.8590 | Val C-Index: 0.7837
+--> Fold 3 | C-Index (letzte Epoche): 0.7837
+
+==================== FOLD 4 ====================
+Epoch 01/10 | Train Loss: 1.0134 | Val Loss: 0.8792 | Val C-Index: 0.7362
+Epoch 02/10 | Train Loss: 0.8160 | Val Loss: 0.9195 | Val C-Index: 0.7588
+Epoch 03/10 | Train Loss: 0.7767 | Val Loss: 0.7849 | Val C-Index: 0.7714
+Epoch 04/10 | Train Loss: 0.7081 | Val Loss: 0.8009 | Val C-Index: 0.7312
+Epoch 05/10 | Train Loss: 0.6941 | Val Loss: 0.8321 | Val C-Index: 0.7437
+Epoch 06/10 | Train Loss: 0.6665 | Val Loss: 0.7726 | Val C-Index: 0.7739
+Epoch 07/10 | Train Loss: 0.6481 | Val Loss: 0.7881 | Val C-Index: 0.7739
+Epoch 08/10 | Train Loss: 0.6238 | Val Loss: 0.7555 | Val C-Index: 0.7915
+Epoch 09/10 | Train Loss: 0.6102 | Val Loss: 0.7768 | Val C-Index: 0.7940
+Epoch 10/10 | Train Loss: 0.5932 | Val Loss: 0.7919 | Val C-Index: 0.7990
+--> Fold 4 | C-Index (letzte Epoche): 0.7990
+
+==================================================
+5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.7063 ± 0.0920
+
+Alle Ergebnisse archiviert unter: runs/TCGA-KIRC_abmil_20261127_141315

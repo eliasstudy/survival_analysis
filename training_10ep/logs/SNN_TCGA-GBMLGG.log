@@ -1,0 +1,81 @@
+Config identisch zu TCGA-GBMLGG_snn_20261126_185811 (bis auf epochs)
+Nutze Device: cuda
+Fold-Verteilung (Größe | Events):
+  Fold 0: n=104 | events=51 | sites=4
+  Fold 1: n=132 | events=36 | sites=7
+  Fold 2: n=132 | events=46 | sites=7
+  Fold 3: n=119 | events=24 | sites=10
+  Fold 4: n= 81 | events=30 | sites=7
+Genomic-only Input: 4917 Gene, 568 Patienten
+OK: identische Patienten (568) und Folds wie TCGA-GBMLGG_survpath_20261126_194936
+==================== FOLD 0 ====================
+Parameter: 1,325,828
+[Fold 0] Epoch 01/10 | Train Loss: 1.6621 | Val Loss: 1.5923 | Val C-Index: 0.7196
+[Fold 0] Epoch 02/10 | Train Loss: 1.1465 | Val Loss: 1.6160 | Val C-Index: 0.7403
+[Fold 0] Epoch 03/10 | Train Loss: 0.9434 | Val Loss: 1.7625 | Val C-Index: 0.7506
+[Fold 0] Epoch 04/10 | Train Loss: 0.7704 | Val Loss: 1.8421 | Val C-Index: 0.7561
+[Fold 0] Epoch 05/10 | Train Loss: 0.6718 | Val Loss: 1.8742 | Val C-Index: 0.7572
+[Fold 0] Epoch 06/10 | Train Loss: 0.5808 | Val Loss: 2.0192 | Val C-Index: 0.7645
+[Fold 0] Epoch 07/10 | Train Loss: 0.5817 | Val Loss: 2.1163 | Val C-Index: 0.7667
+[Fold 0] Epoch 08/10 | Train Loss: 0.5367 | Val Loss: 2.1567 | Val C-Index: 0.7616
+[Fold 0] Epoch 09/10 | Train Loss: 0.4953 | Val Loss: 2.3815 | Val C-Index: 0.7656
+[Fold 0] Epoch 10/10 | Train Loss: 0.4751 | Val Loss: 2.5018 | Val C-Index: 0.7583
+--> Fold 0 | C-Index (letzte Epoche): 0.7583
+==================== FOLD 1 ====================
+[Fold 1] Epoch 01/10 | Train Loss: 1.5951 | Val Loss: 1.0950 | Val C-Index: 0.7866
+[Fold 1] Epoch 02/10 | Train Loss: 1.2177 | Val Loss: 0.8295 | Val C-Index: 0.7857
+[Fold 1] Epoch 03/10 | Train Loss: 0.9940 | Val Loss: 0.6968 | Val C-Index: 0.7953
+[Fold 1] Epoch 04/10 | Train Loss: 0.7781 | Val Loss: 0.7161 | Val C-Index: 0.8103
+[Fold 1] Epoch 05/10 | Train Loss: 0.7192 | Val Loss: 0.6959 | Val C-Index: 0.8153
+[Fold 1] Epoch 06/10 | Train Loss: 0.6742 | Val Loss: 0.7203 | Val C-Index: 0.8207
+[Fold 1] Epoch 07/10 | Train Loss: 0.5917 | Val Loss: 0.7073 | Val C-Index: 0.8180
+[Fold 1] Epoch 08/10 | Train Loss: 0.5502 | Val Loss: 0.7082 | Val C-Index: 0.8167
+[Fold 1] Epoch 09/10 | Train Loss: 0.5124 | Val Loss: 0.7485 | Val C-Index: 0.8244
+[Fold 1] Epoch 10/10 | Train Loss: 0.5076 | Val Loss: 0.7807 | Val C-Index: 0.8344
+--> Fold 1 | C-Index (letzte Epoche): 0.8344
+==================== FOLD 2 ====================
+[Fold 2] Epoch 01/10 | Train Loss: 1.6725 | Val Loss: 1.3439 | Val C-Index: 0.8174
+[Fold 2] Epoch 02/10 | Train Loss: 1.1817 | Val Loss: 1.2724 | Val C-Index: 0.8125
+[Fold 2] Epoch 03/10 | Train Loss: 0.9680 | Val Loss: 1.1756 | Val C-Index: 0.8303
+[Fold 2] Epoch 04/10 | Train Loss: 0.8245 | Val Loss: 1.1010 | Val C-Index: 0.8470
+[Fold 2] Epoch 05/10 | Train Loss: 0.7102 | Val Loss: 1.1224 | Val C-Index: 0.8515
+[Fold 2] Epoch 06/10 | Train Loss: 0.6310 | Val Loss: 1.0991 | Val C-Index: 0.8558
+[Fold 2] Epoch 07/10 | Train Loss: 0.6176 | Val Loss: 1.0124 | Val C-Index: 0.8591
+[Fold 2] Epoch 08/10 | Train Loss: 0.5709 | Val Loss: 1.1484 | Val C-Index: 0.8540
+[Fold 2] Epoch 09/10 | Train Loss: 0.5026 | Val Loss: 1.1127 | Val C-Index: 0.8577
+[Fold 2] Epoch 10/10 | Train Loss: 0.4514 | Val Loss: 1.0667 | Val C-Index: 0.8663
+--> Fold 2 | C-Index (letzte Epoche): 0.8663
+==================== FOLD 3 ====================
+[Fold 3] Epoch 01/10 | Train Loss: 1.4588 | Val Loss: 0.8075 | Val C-Index: 0.8712
+[Fold 3] Epoch 02/10 | Train Loss: 1.1453 | Val Loss: 0.6340 | Val C-Index: 0.8612
+[Fold 3] Epoch 03/10 | Train Loss: 0.9260 | Val Loss: 0.6112 | Val C-Index: 0.8546
+[Fold 3] Epoch 04/10 | Train Loss: 0.8276 | Val Loss: 0.6472 | Val C-Index: 0.8425
+[Fold 3] Epoch 05/10 | Train Loss: 0.7203 | Val Loss: 0.6909 | Val C-Index: 0.8391
+[Fold 3] Epoch 06/10 | Train Loss: 0.6888 | Val Loss: 0.7195 | Val C-Index: 0.8397
+[Fold 3] Epoch 07/10 | Train Loss: 0.6669 | Val Loss: 0.7474 | Val C-Index: 0.8375
+[Fold 3] Epoch 08/10 | Train Loss: 0.6180 | Val Loss: 0.7634 | Val C-Index: 0.8397
+[Fold 3] Epoch 09/10 | Train Loss: 0.6268 | Val Loss: 0.7550 | Val C-Index: 0.8463
+[Fold 3] Epoch 10/10 | Train Loss: 0.6185 | Val Loss: 0.7819 | Val C-Index: 0.8447
+--> Fold 3 | C-Index (letzte Epoche): 0.8447
+==================== FOLD 4 ====================
+[Fold 4] Epoch 01/10 | Train Loss: 1.6361 | Val Loss: 1.0320 | Val C-Index: 0.7907
+[Fold 4] Epoch 02/10 | Train Loss: 1.1654 | Val Loss: 0.9657 | Val C-Index: 0.7869
+[Fold 4] Epoch 03/10 | Train Loss: 0.9185 | Val Loss: 1.0110 | Val C-Index: 0.8075
+[Fold 4] Epoch 04/10 | Train Loss: 0.8078 | Val Loss: 1.1659 | Val C-Index: 0.8187
+[Fold 4] Epoch 05/10 | Train Loss: 0.7354 | Val Loss: 1.1844 | Val C-Index: 0.8131
+[Fold 4] Epoch 06/10 | Train Loss: 0.6287 | Val Loss: 1.2830 | Val C-Index: 0.8196
+[Fold 4] Epoch 07/10 | Train Loss: 0.6000 | Val Loss: 1.2585 | Val C-Index: 0.8178
+[Fold 4] Epoch 08/10 | Train Loss: 0.5652 | Val Loss: 1.2523 | Val C-Index: 0.8075
+[Fold 4] Epoch 09/10 | Train Loss: 0.5647 | Val Loss: 1.3919 | Val C-Index: 0.8093
+[Fold 4] Epoch 10/10 | Train Loss: 0.4972 | Val Loss: 1.4530 | Val C-Index: 0.8131
+--> Fold 4 | C-Index (letzte Epoche): 0.8131
+
+==================================================
+Fold 0 | C-Index (letzte Epoche): 0.7583
+Fold 1 | C-Index (letzte Epoche): 0.8344
+Fold 2 | C-Index (letzte Epoche): 0.8663
+Fold 3 | C-Index (letzte Epoche): 0.8447
+Fold 4 | C-Index (letzte Epoche): 0.8131
+5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8233 ± 0.0368
+
+Alle Ergebnisse archiviert unter: runs/TCGA-GBMLGG_snn_20261127_144803

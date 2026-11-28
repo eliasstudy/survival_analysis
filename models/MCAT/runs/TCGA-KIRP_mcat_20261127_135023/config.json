@@ -1,0 +1,29 @@
+{
+    "cohort": "TCGA-KIRP",
+    "model_type": "mcat",
+    "genomics": "rnaseq_raw_xena_pancan",
+    "omic_scaling": "zscore_per_gene_clip5",
+    "in_dim": 768,
+    "fusion": "concat",
+    "model_size_wsi": "small",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 10,
+    "lr": 0.0001,
+    "lr_scheduler": "none",
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_jobs": 5,
+    "omic_sizes": [
+        81,
+        304,
+        498,
+        424,
+        1417,
+        428
+    ],
+    "n_omic_features": 2854
+}

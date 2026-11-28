@@ -1,0 +1,26 @@
+{
+    "run_name": "TCGA-KIRP_transmil_20261127_135701",
+    "model_selection": "last_epoch",
+    "mean_c_index": 0.7696,
+    "std_c_index": 0.1099,
+    "fold_c_indices": [
+        0.8282,
+        0.6468,
+        0.6268,
+        0.8694,
+        0.8769
+    ],
+    "cohort": "TCGA-KIRP",
+    "model_type": "transmil",
+    "in_dim": 768,
+    "embed_dim": 512,
+    "num_classes": 4,
+    "epochs": 10,
+    "lr": 0.0001,
+    "lr_scheduler": "none",
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85
+}

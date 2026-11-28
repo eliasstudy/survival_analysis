@@ -1,0 +1,27 @@
+{
+    "run_name": "TCGA-KIRP_snn_20261128_103826",
+    "model_selection": "last_epoch",
+    "mean_c_index": 0.8047,
+    "std_c_index": 0.1382,
+    "fold_c_indices": [
+        0.9571,
+        0.766,
+        0.5598,
+        0.8378,
+        0.903
+    ],
+    "cohort": "TCGA-KIRP",
+    "model_type": "snn",
+    "pathways": "mcat_signatures",
+    "omic_scaling": "zscore_per_gene_clip5",
+    "model_size_omic": "small",
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0001,
+    "lr_scheduler": "none",
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "loss_alpha": 0.15,
+    "seed": 85,
+    "n_omic_features": 2854
+}

@@ -1,0 +1,64 @@
+[2026-11-27 13:46:10] Start: 30 Laeufe mit 10 Epochen
+[2026-11-27 13:46:10] (1/30) START MLP_TCGA-KIRP  (Log: logs/MLP_TCGA-KIRP.log)
+[2026-11-27 13:46:20] (1/30) OK    MLP_TCGA-KIRP nach 0m 10s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.7950 ± 0.1324
+[2026-11-27 13:46:20] (2/30) START SNN_TCGA-KIRP  (Log: logs/SNN_TCGA-KIRP.log)
+[2026-11-27 13:46:30] (2/30) OK    SNN_TCGA-KIRP nach 0m 10s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.8224 ± 0.1164
+[2026-11-27 13:46:30] (3/30) START MLP_20k_TCGA-KIRP  (Log: logs/MLP_20k_TCGA-KIRP.log)
+[2026-11-27 13:46:44] (3/30) OK    MLP_20k_TCGA-KIRP nach 0m 14s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.7812 ± 0.1358
+[2026-11-27 13:46:44] (4/30) START SNN_20k_TCGA-KIRP  (Log: logs/SNN_20k_TCGA-KIRP.log)
+[2026-11-27 13:46:57] (4/30) OK    SNN_20k_TCGA-KIRP nach 0m 13s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.7909 ± 0.1485
+[2026-11-27 13:46:57] (5/30) START ABMIL_TCGA-KIRP  (Log: logs/ABMIL_TCGA-KIRP.log)
+[2026-11-27 13:48:24] (5/30) OK    ABMIL_TCGA-KIRP nach 1m 27s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.7394 ± 0.1121
+[2026-11-27 13:48:24] (6/30) START healnet_TCGA-KIRP  (Log: logs/healnet_TCGA-KIRP.log)
+[2026-11-27 13:50:17] (6/30) OK    healnet_TCGA-KIRP nach 1m 53s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.7796 ± 0.1603
+[2026-11-27 13:50:17] (7/30) START MCAT_TCGA-KIRP  (Log: logs/MCAT_TCGA-KIRP.log)
+[2026-11-27 13:52:00] (7/30) OK    MCAT_TCGA-KIRP nach 1m 43s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.8065 ± 0.1392
+[2026-11-27 13:52:00] (8/30) START SURVPATH_TCGA-KIRP  (Log: logs/SURVPATH_TCGA-KIRP.log)
+[2026-11-27 13:56:54] (8/30) OK    SURVPATH_TCGA-KIRP nach 4m 54s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.7673 ± 0.0941
+[2026-11-27 13:56:54] (9/30) START TRANSMIL_TCGA-KIRP  (Log: logs/TRANSMIL_TCGA-KIRP.log)
+[2026-11-27 14:03:18] (9/30) OK    TRANSMIL_TCGA-KIRP nach 6m 24s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.7696 ± 0.1099
+[2026-11-27 14:03:18] (10/30) START MOTCAT_TCGA-KIRP  (Log: logs/MOTCAT_TCGA-KIRP.log)
+[2026-11-27 14:12:26] (10/30) OK    MOTCAT_TCGA-KIRP nach 9m 8s | 5-Fold CV (TCGA-KIRP) - C-Index (letzte Epoche): 0.8033 ± 0.1446
+[2026-11-27 14:12:26] (11/30) START MLP_TCGA-KIRC  (Log: logs/MLP_TCGA-KIRC.log)
+[2026-11-27 14:12:35] (11/30) OK    MLP_TCGA-KIRC nach 0m 9s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.6834 ± 0.0605
+[2026-11-27 14:12:35] (12/30) START SNN_TCGA-KIRC  (Log: logs/SNN_TCGA-KIRC.log)
+[2026-11-27 14:12:45] (12/30) OK    SNN_TCGA-KIRC nach 0m 10s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.6852 ± 0.0683
+[2026-11-27 14:12:45] (13/30) START MLP_20k_TCGA-KIRC  (Log: logs/MLP_20k_TCGA-KIRC.log)
+[2026-11-27 14:12:57] (13/30) OK    MLP_20k_TCGA-KIRC nach 0m 12s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.6889 ± 0.0648
+[2026-11-27 14:12:57] (14/30) START SNN_20k_TCGA-KIRC  (Log: logs/SNN_20k_TCGA-KIRC.log)
+[2026-11-27 14:13:09] (14/30) OK    SNN_20k_TCGA-KIRC nach 0m 12s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.6891 ± 0.0668
+[2026-11-27 14:13:09] (15/30) START ABMIL_TCGA-KIRC  (Log: logs/ABMIL_TCGA-KIRC.log)
+[2026-11-27 14:15:03] (15/30) OK    ABMIL_TCGA-KIRC nach 1m 54s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.7063 ± 0.0920
+[2026-11-27 14:15:03] (16/30) START healnet_TCGA-KIRC  (Log: logs/healnet_TCGA-KIRC.log)
+[2026-11-27 14:17:32] (16/30) OK    healnet_TCGA-KIRC nach 2m 29s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.7210 ± 0.0419
+[2026-11-27 14:17:32] (17/30) START MCAT_TCGA-KIRC  (Log: logs/MCAT_TCGA-KIRC.log)
+[2026-11-27 14:19:51] (17/30) OK    MCAT_TCGA-KIRC nach 2m 19s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.7187 ± 0.0302
+[2026-11-27 14:19:51] (18/30) START SURVPATH_TCGA-KIRC  (Log: logs/SURVPATH_TCGA-KIRC.log)
+[2026-11-27 14:26:32] (18/30) OK    SURVPATH_TCGA-KIRC nach 6m 41s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.6736 ± 0.0411
+[2026-11-27 14:26:32] (19/30) START TRANSMIL_TCGA-KIRC  (Log: logs/TRANSMIL_TCGA-KIRC.log)
+[2026-11-27 14:34:57] (19/30) OK    TRANSMIL_TCGA-KIRC nach 8m 25s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.7006 ± 0.0395
+[2026-11-27 14:34:57] (20/30) START MOTCAT_TCGA-KIRC  (Log: logs/MOTCAT_TCGA-KIRC.log)
+[2026-11-27 14:47:37] (20/30) OK    MOTCAT_TCGA-KIRC nach 12m 40s | 5-Fold CV (TCGA-KIRC) - C-Index (letzte Epoche): 0.7180 ± 0.0452
+[2026-11-27 14:47:37] (21/30) START MLP_TCGA-GBMLGG  (Log: logs/MLP_TCGA-GBMLGG.log)
+[2026-11-27 14:47:52] (21/30) OK    MLP_TCGA-GBMLGG nach 0m 15s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8296 ± 0.0427
+[2026-11-27 14:47:52] (22/30) START SNN_TCGA-GBMLGG  (Log: logs/SNN_TCGA-GBMLGG.log)
+[2026-11-27 14:48:08] (22/30) OK    SNN_TCGA-GBMLGG nach 0m 16s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8233 ± 0.0368
+[2026-11-27 14:48:08] (23/30) START MLP_20k_TCGA-GBMLGG  (Log: logs/MLP_20k_TCGA-GBMLGG.log)
+[2026-11-27 14:48:40] (23/30) OK    MLP_20k_TCGA-GBMLGG nach 0m 32s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8305 ± 0.0372
+[2026-11-27 14:48:40] (24/30) START SNN_20k_TCGA-GBMLGG  (Log: logs/SNN_20k_TCGA-GBMLGG.log)
+[2026-11-27 14:49:12] (24/30) OK    SNN_20k_TCGA-GBMLGG nach 0m 32s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8222 ± 0.0393
+[2026-11-27 14:49:12] (25/30) START ABMIL_TCGA-GBMLGG  (Log: logs/ABMIL_TCGA-GBMLGG.log)
+[2026-11-27 14:52:09] (25/30) OK    ABMIL_TCGA-GBMLGG nach 2m 57s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.7573 ± 0.0724
+[2026-11-27 14:52:09] (26/30) START healnet_TCGA-GBMLGG  (Log: logs/healnet_TCGA-GBMLGG.log)
+[2026-11-27 14:55:21] (26/30) OK    healnet_TCGA-GBMLGG nach 3m 12s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8331 ± 0.0366
+[2026-11-27 14:55:21] (27/30) START MCAT_TCGA-GBMLGG  (Log: logs/MCAT_TCGA-GBMLGG.log)
+[2026-11-27 14:58:20] (27/30) OK    MCAT_TCGA-GBMLGG nach 2m 59s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8134 ± 0.0465
+[2026-11-27 14:58:20] (28/30) START SURVPATH_TCGA-GBMLGG  (Log: logs/SURVPATH_TCGA-GBMLGG.log)
+[2026-11-27 15:08:42] (28/30) OK    SURVPATH_TCGA-GBMLGG nach 10m 22s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8174 ± 0.0544
+[2026-11-27 15:08:42] (29/30) START TRANSMIL_TCGA-GBMLGG  (Log: logs/TRANSMIL_TCGA-GBMLGG.log)
+[2026-11-27 15:21:51] (29/30) OK    TRANSMIL_TCGA-GBMLGG nach 13m 9s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.7607 ± 0.0619
+[2026-11-27 15:21:51] (30/30) START MOTCAT_TCGA-GBMLGG  (Log: logs/MOTCAT_TCGA-GBMLGG.log)
+[2026-11-27 15:39:29] (30/30) OK    MOTCAT_TCGA-GBMLGG nach 17m 38s | 5-Fold CV (TCGA-GBMLGG) - C-Index (letzte Epoche): 0.8219 ± 0.0474
+[2026-11-27 15:39:29] Training beendet: 0 von 30 Laeufen fehlgeschlagen
+[2026-11-27 15:39:33] evaluation/eval.ipynb aktualisiert
+[2026-11-27 15:39:33] FERTIG

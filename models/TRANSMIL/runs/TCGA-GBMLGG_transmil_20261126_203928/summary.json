@@ -1,0 +1,26 @@
+{
+    "run_name": "TCGA-GBMLGG_transmil_20261126_203928",
+    "model_selection": "last_epoch",
+    "mean_c_index": 0.7483,
+    "std_c_index": 0.0619,
+    "fold_c_indices": [
+        0.6383,
+        0.793,
+        0.816,
+        0.7623,
+        0.7318
+    ],
+    "cohort": "TCGA-GBMLGG",
+    "model_type": "transmil",
+    "in_dim": 768,
+    "embed_dim": 512,
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0001,
+    "lr_scheduler": "none",
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85
+}

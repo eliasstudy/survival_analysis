@@ -1,0 +1,30 @@
+{
+    "run_name": "TCGA-KIRC_abmil_20261127_091458",
+    "model_selection": "last_epoch",
+    "mean_c_index": 0.6989,
+    "std_c_index": 0.0939,
+    "fold_c_indices": [
+        0.5513,
+        0.6289,
+        0.7586,
+        0.7518,
+        0.804
+    ],
+    "cohort": "TCGA-KIRC",
+    "model_type": "abmil",
+    "in_dim": 768,
+    "embed_dim": 512,
+    "num_fc_layers": 1,
+    "dropout": 0.25,
+    "attn_dim": 384,
+    "gate": true,
+    "num_classes": 4,
+    "epochs": 20,
+    "lr": 0.0001,
+    "lr_scheduler": "none",
+    "weight_decay": 1e-05,
+    "grad_accum_steps": 32,
+    "max_patches_train": null,
+    "loss_alpha": 0.15,
+    "seed": 85
+}

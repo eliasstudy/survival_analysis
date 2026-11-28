@@ -1,4 +1,10 @@
-run_name,model_selection,mean_c_index,std_c_index,fold_c_indices,cohort,model_type,pathways,omic_scaling,projection_dim,dropout,num_classes,epochs,lr,weight_decay,grad_accum_steps,loss_alpha,seed,n_omic_features
-TCGA-KIRC_mlp_20261120_112743,last_epoch,0.7048,0.0538,"[0.6872, 0.75, 0.7724, 0.6183, 0.696]",TCGA-KIRC,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0002,1e-05,32,0.15,85,4917
-TCGA-GBMLGG_mlp_20261120_112800,last_epoch,0.8299,0.0431,"[0.7638, 0.8116, 0.8843, 0.869, 0.8206]",TCGA-GBMLGG,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0002,1e-05,32,0.15,85,4917
-TCGA-KIRP_mlp_20261120_112816,last_epoch,0.7909,0.1413,"[0.9571, 0.766, 0.5502, 0.7748, 0.9067]",TCGA-KIRP,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0002,1e-05,32,0.15,85,4917
+run_name,model_selection,mean_c_index,std_c_index,fold_c_indices,cohort,model_type,pathways,omic_scaling,projection_dim,dropout,num_classes,epochs,lr,weight_decay,grad_accum_steps,loss_alpha,seed,n_omic_features,lr_scheduler
+TCGA-KIRC_mlp_20261120_112743,last_epoch,0.7048,0.0538,"[0.6872, 0.75, 0.7724, 0.6183, 0.696]",TCGA-KIRC,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0002,1e-05,32,0.15,85,4917,
+TCGA-GBMLGG_mlp_20261120_112800,last_epoch,0.8299,0.0431,"[0.7638, 0.8116, 0.8843, 0.869, 0.8206]",TCGA-GBMLGG,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0002,1e-05,32,0.15,85,4917,
+TCGA-KIRP_mlp_20261120_112816,last_epoch,0.7909,0.1413,"[0.9571, 0.766, 0.5502, 0.7748, 0.9067]",TCGA-KIRP,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0002,1e-05,32,0.15,85,4917,
+TCGA-KIRP_mlp_20261126_185657,last_epoch,0.7849,0.1507,"[0.9509, 0.7745, 0.5167, 0.7793, 0.903]",TCGA-KIRP,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0001,1e-05,32,0.15,85,4917,none
+TCGA-KIRC_mlp_20261126_185709,last_epoch,0.7055,0.0608,"[0.6822, 0.7324, 0.7948, 0.6096, 0.7085]",TCGA-KIRC,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0001,1e-05,32,0.15,85,4917,none
+TCGA-GBMLGG_mlp_20261126_185725,last_epoch,0.8285,0.0413,"[0.7653, 0.8103, 0.8814, 0.8651, 0.8206]",TCGA-GBMLGG,mlp,combine,zscore_per_gene_clip5,512,0.1,4,20,0.0001,1e-05,32,0.15,85,4917,none
+TCGA-KIRP_mlp_20261127_134617,last_epoch,0.795,0.1324,"[0.9448, 0.7362, 0.5789, 0.7973, 0.9179]",TCGA-KIRP,mlp,combine,zscore_per_gene_clip5,512,0.1,4,10,0.0001,1e-05,32,0.15,85,4917,none
+TCGA-KIRC_mlp_20261127_141232,last_epoch,0.6834,0.0605,"[0.7313, 0.6875, 0.7431, 0.5718, 0.6834]",TCGA-KIRC,mlp,combine,zscore_per_gene_clip5,512,0.1,4,10,0.0001,1e-05,32,0.15,85,4917,none
+TCGA-GBMLGG_mlp_20261127_144747,last_epoch,0.8296,0.0427,"[0.7616, 0.8071, 0.8817, 0.8651, 0.8327]",TCGA-GBMLGG,mlp,combine,zscore_per_gene_clip5,512,0.1,4,10,0.0001,1e-05,32,0.15,85,4917,none
