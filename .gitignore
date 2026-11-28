@@ -1,0 +1,7 @@
+# Model checkpoints (werden nur gespeichert, nie geladen)
+*.pt
+*.pth
+**/checkpoints/
+
+# macOS
+.DS_Store
